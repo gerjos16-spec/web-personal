@@ -70,12 +70,13 @@
      box-sizing: border-box;
  }
 
- .title-negrita {
+ .name__one {
      font-family: 'Source Serif 4', sans-serif;
      font-weight: 400;
      font-size: 24px;
      line-height: 152%;
-
+     width: 95px;
+     height: 30px;
      letter-spacing: -0.045em;
 
      color: #000000;
@@ -83,15 +84,20 @@
  
  .home {
   color: #c9188b; /* rosa/magenta, como en tu diseño */
+  text-decoration: none;
+
 }
 
 .about {
   color: #8a8a1f; /* verde oliva */
+  text-decoration: none;
 }
 
 .contact {
   color: #5b4fc4; /* morado/azul */
+  text-decoration: none;
 }
+
 .enlace-header {
   
     nav a {
@@ -106,11 +112,17 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 60px;
+  padding: 0px 0px;
 }
 
-.header-user {
+.header__user {
   display: flex;
   align-items: center;
   gap: 12px;
+}
+.profile_het {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* los alinea a la izquierda */
+  gap: 16px;               /* espacio entre nombre y foto */
 }
