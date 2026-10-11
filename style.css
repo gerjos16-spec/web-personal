@@ -81,11 +81,10 @@
 
      color: #000000;
  }
- 
+
  .home {
   color: #c9188b; /* rosa/magenta, como en tu diseño */
   text-decoration: none;
-
 }
 
 .about {
@@ -112,7 +111,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 0px;
+  padding: 40px 60px;
 }
 
 .header__user {
@@ -120,9 +119,27 @@ header {
   align-items: center;
   gap: 12px;
 }
+.text__decoration{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 5px;
+  
+}
 .profile_het {
   display: flex;
   flex-direction: column;
   align-items: flex-start; /* los alinea a la izquierda */
   gap: 16px;               /* espacio entre nombre y foto */
+  white-space: nowrap;
+}
+.descrition_sar{
+line-height: 1.6;
+margin-left: 1rem;
+margin-top:none;
+margin-bottom:none;
+letter-spacing: 0.05em;
+
 }
